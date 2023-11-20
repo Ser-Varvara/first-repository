@@ -148,7 +148,18 @@ width: 100%;
     position: absolute;
     top: 0;
     right: 0;
-    background-color: rgb(228, 228, 26);
+    background-color:cornflowerblue;
+    padding: 0 10px 5px;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    margin: 0;
+    color: #fff;
+}
+.twoC {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color:midnightblue;
     padding: 0 10px 5px;
     border-left: 3px solid black;
     border-bottom: 3px solid black;
@@ -159,22 +170,11 @@ width: 100%;
     position: absolute;
     top: 0;
     right: 0;
-    background-color: rgb(255, 34, 0);
+    background-color:gold;
     padding: 0 10px 5px;
     border-left: 3px solid black;
     border-bottom: 3px solid black;
     margin: 0;
     color: #fff;
-}
 
-.twoC {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: rgb(81, 255, 0);
-    padding: 0 10px 5px;
-    border-left: 3px solid black;
-    border-bottom: 3px solid black;
-    margin: 0;
-    color: #fff;
 }
