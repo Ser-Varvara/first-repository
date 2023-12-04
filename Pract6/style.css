@@ -1,1 +1,78 @@
+h1{
+    text-align: center;
+    front-size: 24px;
+}
+
+p {
+  font-size: 120%;
+}
+
+.link > a {
+  text-decoration: none;
+}
+
+.nav > nth-child(1) a {
+  color: blue;
+}
+
+.nav > nth-child(1) a:visited {
+  color: pink
+}
+
+.nav > nth-child(2) a {
+  color: green
+}
+
+.nav > nth-child(2) a:visited {
+  color: purple
+}
+
+.nav > nth-child(3) a {
+  color: orange
+}
+
+.nav > nth-child(3) a:visited {
+  color: grey
+}
+
+.nav > nth-child(4) a {
+  color: red
+}
+
+.nav > nth-child(4) a:visited {
+  color: yellowg
+}
+
+.nav {
+  display: flex;
+  font-size: 20px;
+}
+
+@media (max-width: 768px){
+    .nav {
+      flex-direction: column;
+    }
+  .link {
+    width: 50%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+    .nav {
+      flex-wrap: wrap;
+      text-align: center;
+    }
+    .link {
+        width: 50%
+    }
+}
+
+@media (min-width: 992px) {
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 50px;
+    }
+}
 
