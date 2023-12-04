@@ -1,1 +1,22 @@
+body {
+  front-size: 16px;
+}
 
+*{
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  front-size: 22px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li > a {
+  display: inline-block;
+  width: 200px;
+  
+}
