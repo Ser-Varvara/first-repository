@@ -1,10 +1,11 @@
 body {
     margin: 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     min-height: 100vh;
 }
-
 .parent-block {
     position: relative;
 }
