@@ -33,6 +33,8 @@ table {
 
 .block-header {
     width: 120px;
+    height: 7%;
+    font-size: 120%;
     box-sizing: border-box;
     background-color: black;
     color: white;
