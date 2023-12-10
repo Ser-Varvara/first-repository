@@ -1,32 +1,41 @@
-.c1 {
-
-background-color: cadetblue;
-
+body {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 100vh;
 }
 
-.c2 {
-background-color: aquamarine;
-
+.parent-block {
+    position: relative;
 }
 
-.c3 {
-background-color: burlywood;
-
-}
-.c4 {
-
-    background-color: brown;
+.block {
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    color: #fff;
 }
 
-.pic {
-
-    padding: 10px 20px;
-    background-color: white;
-    display: inline-block;
-    border: 3px solid black;
-    font-size: 120%;
+.block-header {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
 }
-.puk {
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+/* Кольори фону для блоків 1-4 */
+.block1 {
+    background-color: #FFD700;
+}
+
+.block2 {
+    background-color: #8FBC8F;
+}
+
+.block3 {
+    background-color: #87CEFA;
+}
+
+.block4 {
+    background-color: #FFA07A;
 }
