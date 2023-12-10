@@ -26,31 +26,28 @@ body {
 /* Кольори фону для блоків 1-4 */
 .block1 {
     background-color: #FFD700;
+    .block1 h1 {
+  color: #231b8d;
+}
 }
 
 .block2 {
     background-color: #8FBC8F;
+    .block2 h1 {
+  color: #2b094e;
+}
 }
 
 .block3 {
     background-color: #87CEFA;
+    .block3 h1 {
+  color: #4f0d0d;
+}
 }
 
 .block4 {
     background-color: #FFA07A;
-}
-
-/* Колір тексту */
-
-.block1 h1 {
-  color: #231b8d;
-}
-.block2 h1 {
-  color: #2b094e;
-}
-.block3 h1 {
-  color: #4f0d0d;
-}
-.block4 h1 {
+    .block4 h1 {
   color: #580e55;
+}
 }
