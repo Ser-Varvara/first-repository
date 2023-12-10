@@ -25,17 +25,32 @@ body {
 
 /* Кольори фону для блоків 1-4 */
 .block1 {
-    background-color: #FFD700;
+    background-color: #231b8d;
 }
 
 .block2 {
-    background-color: #8FBC8F;
+    background-color: #2b094e;
 }
 
 .block3 {
-    background-color: #87CEFA;
+    background-color: #4f0d0d;
 }
 
 .block4 {
-    background-color: #FFA07A;
+    background-color: #580e55;
+}
+
+/* Колір тексту */
+
+.block1 h1 {
+  color: #ffffff;
+}
+.block2 h1 {
+  color: #000000;
+}
+.block3 h1 {
+  color: #ffffff;
+}
+.block4 h1 {
+  color: #000000;
 }
