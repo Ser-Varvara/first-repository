@@ -1,9 +1,9 @@
 body {
     margin: 0;
-    flex-direction: column
-    justify-content: flex-end;
-    align-items: flex-end;
     display: flex;
+    flex-direction: column
+    justify-content: center;
+    align-items: center;
     min-height: 100vh;
 }
 
