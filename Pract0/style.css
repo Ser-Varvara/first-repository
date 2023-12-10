@@ -42,19 +42,35 @@ table {
 .block1 {
     background-color: #FFD700;
     color: #8f2fa2;
+    width: 100%;
+    font-size: 100%;
+    height: 100%;
+    border: 2px solid rgb(79, 54, 0);
 }
 
 .block2 {
     background-color: #8FBC8F;
     color: #3c2fa2;
+    width: 100%;
+    font-size: 100%;
+    height: 100%;
+    border: 2px solid rgb(87, 3, 103);
 }
 
 .block3 {
     background-color: #87CEFA;
     color: #692fa2;
+    width: 100%;
+    font-size: 100%;
+    height: 100%;
+    border: 2px solid black;
 }
 
 .block4 {
     background-color: #FFA07A;
     color: #65154c;
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    border: 2px solid rgb(30, 0, 74);
 }
