@@ -1,0 +1,18 @@
+#block1 { background-color: #FFD700; } /* Gold */
+#block2 { background-color: #87CEEB; } /* SkyBlue */
+#block3 { background-color: #90EE90; } /* LightGreen */
+#block4 { background-color: #FFA07A; } /* LightSalmon */
+
+.block h2 {
+    background-color: #333; /* Dark Gray */
+    color: #fff; /* White */
+    padding: 10px; /* Add some padding for better appearance */
+}
+
+.block-header {
+    width: 200px; /* Фіксована ширина блоку заголовка */
+    background-color: #000; /* Контрастний колір фону для заголовка */
+    color: #FFF; /* Колір тексту заголовка */
+    padding: 10px; /* Внутрішні відступи для заголовка */
+    margin-bottom: 10px; /* Зовнішній відступ снизу для блоку заголовка */
+}
