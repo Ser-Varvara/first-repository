@@ -1,53 +1,56 @@
 body {
     margin: 0;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
 }
-.parent-block {
-    position: relative;
+
+.link {
+  text-decoration: none;
 }
 
 .block {
     width: 200px;
     padding: 20px;
     margin: 10px;
-    color: #fff;
 }
+
+table {
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
 
 .block-header {
-    width: 100%;
-    padding: 10px;
+    width: 120px;
     box-sizing: border-box;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
 }
 
-/* Кольори фону для блоків 1-4 */
 .block1 {
     background-color: #FFD700;
-    .block1 h1 {
-  color: #231b8d;
-}
 }
 
 .block2 {
     background-color: #8FBC8F;
-    .block2 h1 {
-  color: #2b094e;
-}
 }
 
 .block3 {
     background-color: #87CEFA;
-    .block3 h1 {
-  color: #4f0d0d;
-}
 }
 
 .block4 {
     background-color: #FFA07A;
-    .block4 h1 {
-  color: #580e55;
-}
 }
