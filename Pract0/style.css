@@ -1,6 +1,8 @@
 body {
     margin: 0;
     flex-direction: column
+    justify-content: flex-end;
+    align-items: flex-end;
     display: flex;
     min-height: 100vh;
 }
