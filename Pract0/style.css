@@ -25,32 +25,32 @@ body {
 
 /* Кольори фону для блоків 1-4 */
 .block1 {
-    background-color: #231b8d;
+    background-color: #FFD700;
 }
 
 .block2 {
-    background-color: #2b094e;
+    background-color: #8FBC8F;
 }
 
 .block3 {
-    background-color: #4f0d0d;
+    background-color: #87CEFA;
 }
 
 .block4 {
-    background-color: #580e55;
+    background-color: #FFA07A;
 }
 
 /* Колір тексту */
 
 .block1 h1 {
-  color: #ffffff;
+  color: #231b8d;
 }
 .block2 h1 {
-  color: #000000;
+  color: #2b094e;
 }
 .block3 h1 {
-  color: #ffffff;
+  color: #4f0d0d;
 }
 .block4 h1 {
-  color: #000000;
+  color: #580e55;
 }
