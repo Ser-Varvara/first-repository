@@ -92,12 +92,3 @@ table {
     border: 2px solid rgb(30, 0, 74);
 }
   
-  .text {
-    background-color: rgb(98, 133, 238);
-    color:rgb(160, 106, 47);
-    width: 100%;
-    font-size: 120%;
-    height: 18%;
-    border: 2px solid;
-    display: flex;
-  }
