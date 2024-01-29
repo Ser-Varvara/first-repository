@@ -1,6 +1,9 @@
 .container {
   width: 100%;
 }
+table {
+  width: 25%;
+}
 
 *{
     box-sizing: border-box;
