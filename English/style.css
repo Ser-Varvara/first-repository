@@ -4,9 +4,11 @@
 }
 
 .block {
+  float: left;
   width: 33.33%;
   margin-right: 10px;
 }
+
 
 table {
   width: 33.3%;
