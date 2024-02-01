@@ -1,1 +1,74 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+   <meta charset="UTF-8">
+   <title> Pract </title>
+    <link rel="stylesheet" href="biography.css">
+  </head>
+  <body>
+    <h1 id="bio">Irregular verbs</h1>
 
+<nav>
+<p><a href="index.html">Назад на головну</a></p>
+</nav>
+
+ <h2>Food and drink</h2>
+      
+      <h3>Everyday food</h3>
+      
+       <table border="3">
+<thead>
+    <tr>
+      <th>Слово</th>
+      <th>Переклад</th>
+    </tr>
+  </thead>
+  <tbody>
+ <tr>
+      <td>bread</td>
+      <td>хліб</td>
+    </tr>
+       <tr>
+      <td>rice</td>
+      <td>рис</td>
+    </tr>
+       <tr>
+      <td>pasta</td>
+      <td>паста</td>
+    </tr>
+       <tr>
+      <td>salt</td>
+      <td>сіль</td>
+    </tr>
+       <tr>
+      <td>chips</td>
+      <td>чіпси</td>
+    </tr>
+       <tr>
+      <td>pepper</td>
+      <td>перець</td>
+    </tr>
+       <tr>
+      <td>meat</td>
+      <td>м'ясо</td>
+    </tr>
+       <tr>
+      <td>fish</td>
+      <td>риба</td>
+    </tr>
+       <tr>
+      <td>sugar</td>
+      <td>цукор</td>
+    </tr>
+       <tr>
+      <td>tea</td>
+      <td>чай</td>
+    </tr>
+       <tr>
+      <td>coffee</td>
+      <td>кава</td>
+    </tr>
+      </tbody>
+</table>
+</body>\
+</html>
