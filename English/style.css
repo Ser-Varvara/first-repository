@@ -1,1 +1,199 @@
+.container {
+  width: 98%;
+  margin: 0 auto;
+}
+
+.block {
+  float: left;
+  width: 33.33%;
+  margin-right: 10px;
+}
+
+
+table {
+  width: 33.3%;
+  margin: 0 10px;
+}
+
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin-top: 1rem;
+}
+.container{
+    width: 98%;
+    margin: 0 auto;
+}
+.block {
+    padding: 2%;
+}
+
+.caption {
+    position: absolute;
+    font-size: 3vh;
+    right: 0;
+    top: 0;
+    width: 150px;
+    border: 2px solid black;
+    border-top-style: none;
+    border-right-style: none;
+    text-align: center;
+}
+.main{
+    position: relative;
+    background-color: rgba(32, 54, 50, 0.21);
+    border: 3px solid black;
+    font-size: 20px;
+    padding: 20px;
+    height: 25vh;
+    overflow: hidden;
+}
+
+.caption-1{
+    background-color: cornflowerblue;
+}
+.caption-2{
+    background-color: midnightblue;
+    color: white;
+}
+.caption-3{
+    background-color: gold;
+}
+
+@media (max-width: 768px){
+    .col-sm-12{
+        width:100%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+    .col-md-6{
+        width:50%;
+    }
+
+    .col-md-12{
+        width:100%;
+    }
+
+    .block {
+        float: left;
+    }
+
+}
+
+@media (min-width: 993px){
+    .col-lg-4{
+        width:33.33%;
+    }
+
+    .block {
+        float: left;
+    }
+}
+
+h1{
+    text-align: center;
+    front-size: 24px;
+}
+
+p {
+  font-size: 120%;
+}
+
+.link > a {
+  text-decoration: none;
+}
+
+.nav > nth-child(1) a {
+  color: blue;
+}
+
+.nav > nth-child(1) a:visited {
+  color: pink
+}
+
+.nav > nth-child(2) a {
+  color: green
+}
+
+.nav > nth-child(2) a:visited {
+  color: purple
+}
+
+.nav > nth-child(3) a {
+  color: orange
+}
+
+.nav > nth-child(3) a:visited {
+  color: grey
+}
+
+.nav > nth-child(4) a {
+  color: red
+}
+
+.nav > nth-child(4) a:visited {
+  color: yellowg
+}
+
+.nav {
+  display: flex;
+  font-size: 20px;
+}
+
+@media (max-width: 768px){
+    .nav {
+      flex-direction: column;
+    }
+  .link {
+    width: 50%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+    .nav {
+      flex-wrap: wrap;
+      text-align: center;
+    }
+    .link {
+        width: 50%
+    }
+}
+
+@media (min-width: 992px) {
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 50px;
+    }
+}
+
+ table {
+    border: 2px solid black;
+    padding: 2px;
+    text-align: center;
+    border-collapse: collapse;
+  }
+
+  th,
+  td {
+    border: 1px black;
+  }
+
+  tr {
+    border: 2px solid black;
+  }
+
+  th {
+    text-align: center;
+    border: 2px solid black;
+  }
+
+  td {
+    text-align: left;
+    border: 2px solid black;
+  }
 
